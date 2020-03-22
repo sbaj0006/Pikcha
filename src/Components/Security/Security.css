@@ -1,0 +1,92 @@
+.row {
+  width: 75%;
+  margin-left: 10px;
+}
+
+.heading {
+  left: 20px;
+  width: 75%;
+}
+
+.wrapperSecurity .labelAlign {
+  display: flex;
+  align-items: center;
+  margin-top: 0.6em;
+  margin-left: 2em;
+}
+
+.changeBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.change-btn {
+  background-color: var(--secondaryColor);
+  color: var(--mainWhite);
+  border: none;
+  border-radius: 5px;
+  padding: 8px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 4px 2px;
+  width: 30%;
+}
+
+.wrapper .labelAuth {
+  margin-top: 35px;
+}
+
+.switchbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.displayLabel {
+  margin-top: 20px;
+}
+
+.phoneLabel {
+  display: flex;
+  /* justify-content: center; */
+  margin-left: 83px;
+  align-items: center;
+}
+
+.inputLabel {
+  display: flex;
+  /* justify-content: center; */
+  margin-left: 83px;
+  align-items: center;
+}
+
+.submitBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-toggle {
+  /* position: absolute; */
+  display: inline-block;
+  background-color: var(--secondaryColor);
+  border: none;
+  border-radius: 5px;
+  padding: 8px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 4px 2px;
+  color: var(--mainWhite);
+}
+
+#phone {
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.wrapperSecurity {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 80px;
+}
